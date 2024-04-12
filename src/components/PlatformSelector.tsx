@@ -8,9 +8,7 @@ type Props = {
 };
 
 const PlatformSelector = ({ selectedPlatform, onSelectPaltform }: Props) => {
-  const { data, error } = usePlatforms();
-
-  if (error) return null;
+  const { data } = usePlatforms();
 
   return (
     <Menu>
