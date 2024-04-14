@@ -1,3 +1,5 @@
+import useGenres, { Genre } from "@/hooks/useGenres";
+import getCroppedImageUrl from "@/services/image-url";
 import {
   Button,
   HStack,
@@ -6,8 +8,6 @@ import {
   List,
   ListItem,
 } from "@chakra-ui/react";
-import useGenres, { Genre } from "@/hooks/useGenres";
-import getCroppedImageUrl from "@/services/image-url";
 
 type Props = {
   selectedGenre: Genre | null;
