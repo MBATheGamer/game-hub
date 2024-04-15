@@ -15,7 +15,9 @@ type Props = {
 };
 
 const GenreList = ({ selectedGenreId, onSelectGenre }: Props) => {
-  const { data } = useGenres();
+  const { data, error } = useGenres();
+
+  if (error) return null;
 
   return (
     <>
