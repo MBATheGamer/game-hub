@@ -1,5 +1,5 @@
-import { Genre } from "@/hooks/useGenres";
-import { FetchResponse } from "@/services/api-client";
+import { Genre } from "@/hooks/Genre";
+import { FetchResponse } from "@/services/FetchResponse";
 
 export default {
   count: 19,
