@@ -1,5 +1,5 @@
-import { Platform } from "@/hooks/Platform";
-import { FetchResponse } from "@/services/FetchResponse";
+import Platform from "@/entities/Platform";
+import { FetchResponse } from "@/services/api-client";
 
 export default {
   count: 19,

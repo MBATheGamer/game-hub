@@ -1,5 +1,5 @@
-import { Genre } from "@/hooks/Genre";
-import { FetchResponse } from "@/services/FetchResponse";
+import Genre from "@/entities/Genre";
+import { FetchResponse } from "@/services/api-client";
 
 export default {
   count: 19,
